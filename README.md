@@ -1,9 +1,9 @@
 # Kickstarter-Analysis
 
 ## Overview of Project
-
+Using kickstarter data, an analysis was run on kickstarter goals, outcomes, and lauch dates within the parent category/subcategory theatre/plays.
 ### Purpose: 
-The purpose of this analysis was to determine how different kickstarter campaigns compared to others in relation to their launch dates and funding goals within the theatre/play category.
+To support Louise in other plays outside of her play Fever this kickstarter analysis was run to determine how different kickstarter campaigns compared to others in relation to their launch dates and funding goals within the theatre/play category.
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date

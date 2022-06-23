@@ -2,7 +2,7 @@
 
 ## Overview of Project
 Using kickstarter data, an analysis was run on kickstarter goals, outcomes, and lauch dates within the parent category/subcategory theatre/plays.
-### Purpose: 
+### Purpose 
 To support Louise in other plays outside of her play Fever this kickstarter analysis was run to determine how different kickstarter campaigns compared to others in relation to their launch dates and funding goals within the theatre/play category.
 ## Analysis and Challenges
 
@@ -15,7 +15,7 @@ To determine how theatre kickstarters compared based on launch date, I created a
 ### Analysis of Outcomes Based on Goals
 Also, an analysis was run to determine what goal range is most successful for plays. This analysis included a range of goals, as seen below, beginning with "Less than 1000" and ending with "50000 to More." The COUNTIFS function was then used to gather the number of successful, failed, and cancelled plays from each range. This function provided that there were 0 cancelled kickstarters under the "Play" subcategory. After determining the number of plays by outcome, the SUM function was used for the outcomes by each range with Goal range "1000 to 4999" having the greatest number of projects and "45000 to 49999" having the least amount of projects. This SUM was then used to calculate the percentage of outcomes based on their total amount per goal range. These percentage outcomes demonstrated that the most successful kcikstarters were less than $1000 goal. After collecting information for outcomes based on a range of goals, a pivot chart was created, as seen below.
 
-![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](Outcomes_vs_goals.png)
 ### Challenges and Difficulties Encountered
 During analysis, I encountered two main difficulties. First, in determing theatre kickstarter outcomes by their launch date, the 0 canceled kickstarters for October confused me. I had to work back through the kickstarter data, filter "outcomes" by "canceled" and "date created version" by October to make sure the table poopulated correectly. Second, after populating the "Outcomes Based on Goals" chart, I realized my data was not correct. When using the COUNTIFS function, I did not filter by "plays" Subcategory which inflated my data. After determining the cause, I was able to correct the data and refresh the chart for an accurate picture of the outcomes based on goals.
 ## Results
